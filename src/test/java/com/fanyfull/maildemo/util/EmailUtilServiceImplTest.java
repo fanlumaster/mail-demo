@@ -12,7 +12,7 @@ public class EmailUtilServiceImplTest {
 
     @Test
     void sendSimpleMail() {
-        String to = "lxyfl6688@gmail.com";
+        String to = "xxx@gmail.com"; // replace with your own email
         String subject = "spring mail test";
         String content = "This is an email from spring-mail, just a test.";
         emailUtilService.sendSimpleMail(to, subject, content);
